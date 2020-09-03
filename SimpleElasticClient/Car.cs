@@ -2,13 +2,13 @@
 {
     internal class Car
     {
-        public string brand { get; }
-        public int miles { get; }
+        public string Brand { get; }
+        public int Miles { get; }
 
     public Car(string v1, int v2)
         {
-            this.brand = v1;
-            this.miles = v2;
+            this.Brand = v1;
+            this.Miles = v2;
         }
     }
 }
